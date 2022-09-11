@@ -17,9 +17,11 @@ body {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    background: rgb(217, 25, 227);
+    background: rgb(202, 3, 159);
     border-radius: 10px;
     padding: 30px, 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #newtask {
@@ -62,6 +64,12 @@ body {
     border-radius: 10px;
     width: 100%;
     position: relative;
+}
+
+#todo {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 400;    
 }
 
 .task {
